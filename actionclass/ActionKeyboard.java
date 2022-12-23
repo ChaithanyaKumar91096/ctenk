@@ -20,7 +20,7 @@ public class ActionKeyboard {
 	  Thread.sleep(3000);
 	  action.keyUp(Keys.SHIFT).perform();
 	  Thread.sleep(3000);
-	  driver.quit();
+	  driver.close();
   }
 
 
